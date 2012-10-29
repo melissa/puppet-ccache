@@ -1,5 +1,5 @@
 name    'puppet-ccache'
-version '2.2.0'
+version '0.1.0'
 source 'git://github.com/purplehazech/puppet-ccache.git'
 author 'Lucas S. Bickel'
 license 'GNU Affero General Public License, version 3'
