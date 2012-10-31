@@ -13,7 +13,7 @@
 #   ccache{ 'ccache':; }
 # 
 define ccache (
-  $ensure => installed
+  $ensure = installed
 ){
 
 	package { 'ccache':
