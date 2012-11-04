@@ -1,4 +1,4 @@
-# Define: ccache
+# Class: ccache
 #
 # Install ccache on machine
 #
@@ -11,12 +11,7 @@
 # Usage Example:
 #
 #   ccache{ 'ccache':; }
-# 
-define ccache (
-  $ensure = installed
-){
-
-	package { 'ccache':
-		ensure => $ensure
-	}
+#
+class ccache ($ensure = installed) {
+  package { 'ccache': ensure => $ensure }
 }
