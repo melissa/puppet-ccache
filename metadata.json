@@ -1,0 +1,16 @@
+{
+  "name": "puppet-ccache",
+  "author": "Lucas S. Bickel",
+  "description": "Installs ccache via puppet under gentoo.",
+  "license": "GNU Affero General Public License, version 3",
+  "project_page": "https://github.com/purplehazech/puppet-ccache",
+  "source": "git://github.com/purplehazech/puppet-ccache.git",
+  "summary": "Gentoo Puppet Ccache Install",
+  "version": "0.1.0",
+  "checksums": {
+    "Modulefile": "4b2807d97c45c2cea7de483261d9a104",
+    "Readme.md": "e83aa94c4f08be6ff03ca44229311d95",
+    "manifests/init.pp": "d0c28dcba60ec6b30afb2d5025951d32"
+  },
+  "dependencies": []
+}
