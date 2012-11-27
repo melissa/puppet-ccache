@@ -8,10 +8,7 @@
 # === Usage Example:
 #
 #   include ccache
-# 
+#
 class ccache {
-
-	package { 'ccache':
-		ensure => installed
-	}
+  package { 'ccache': ensure => installed }
 }
