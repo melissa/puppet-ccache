@@ -6,19 +6,28 @@
   "project_page": "https://github.com/purplehazech/puppet-ccache",
   "source": "git://github.com/purplehazech/puppet-ccache.git",
   "summary": "Gentoo Puppet Ccache Install",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "checksums": {
+    ".fixtures.yml": "242c9870b81b3d2c6b66f9a72de2079c",
     ".travis.yml": "3767734c36f3de0e7b05457ddb6c1f41",
     "Gemfile": "ff908043e15d175714cea137564a41b4",
     "Gemfile.lock": "bb3a5cc3185d7c182388c8290ff94ebf",
-    "Modulefile": "40db14351fd93aab35539dc2177fe437",
-    "Rakefile": "df0cbda7fbf597fb2924c9815ea0c072",
-    "Readme.rdoc": "5dd6cb8da252b4500d105040b680cc59",
-    "manifests/init.pp": "718d3f5cd961aee1d61d02fc7f95de2d",
+    "LICENSE": "c0acfa7a8a03b718abee9135bc1a1c55",
+    "Modulefile": "a5c0a4250c62b6b693bab2cd60235310",
+    "Rakefile": "0a4ab9cab781af65d8595c67a24d2269",
+    "Readme.rdoc": "dfdf507dd8b23a87c820733faa6c67be",
+    "manifests/init.pp": "c2c304f502169c5895bf0d01f127d642",
+    "manifests/params.pp": "81a2f3100fea3100761be347f48bb537",
     "spec/classes/ccache_spec.rb": "3735e807b832d01ccf5f0bb92b36398e",
-    "spec/fixtures/manifests/site.pp": "68b329da9893e34099c7d8ad5cb9c940",
-    "spec/fixtures/modules/ccache/manifests/init.pp": "718d3f5cd961aee1d61d02fc7f95de2d",
-    "spec/spec_helper.rb": "a40d81371cebc06fa7306dd3aa5970c7"
+    "spec/fixtures/modules/ccache/manifests/init.pp": "c2c304f502169c5895bf0d01f127d642",
+    "spec/fixtures/modules/ccache/manifests/params.pp": "81a2f3100fea3100761be347f48bb537",
+    "spec/spec_helper.rb": "a40d81371cebc06fa7306dd3aa5970c7",
+    "test/site.pp": "bf36a288b695e5f3195312130d3b0625"
   },
-  "dependencies": []
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": "~3.2.0"
+    }
+  ]
 }

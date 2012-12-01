@@ -9,8 +9,16 @@
 #
 #   include ccache
 #
-class ccache {
-  package { 'ccache':
-    ensure => present
+class ccache ($ensure = undef) {
+  include ccache::params
+  $ensure_real = $ensure ? {
+    undef   => $ccache::params::ensure,
+    default => $ensure
   }
+  validate_re($ensure_real, [absent, present])
+
+  package { 'ccache':
+    ensure => $ensure_real
+  }
+
 }
