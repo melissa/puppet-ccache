@@ -10,8 +10,7 @@
 #   include ccache
 #
 class ccache ($ensure = undef) {
-  class { 'ccache::params':
-  }
+  include ccache::params
 
   $ensure_real = $ensure ? {
     undef   => $ccache::params::ensure,
