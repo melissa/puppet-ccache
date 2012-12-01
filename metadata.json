@@ -8,6 +8,8 @@
   "summary": "Gentoo Puppet Ccache Install",
   "version": "0.1.0",
   "checksums": {
+    ".travis.yml": "3767734c36f3de0e7b05457ddb6c1f41",
+    "Gemfile": "82c26450b55b82000903767a77e9cbd4",
     "Modulefile": "40db14351fd93aab35539dc2177fe437",
     "Rakefile": "30135290361360248d8139853a15c8a2",
     "Readme.rdoc": "030d13b8c122589344662377d7bd7a73",
