@@ -1,3 +1,5 @@
 = Module: Puppet Ccache Module
 
 This module installs ccache on gentoo.
+
+This module is also used as a testing platform for integration stuff.
