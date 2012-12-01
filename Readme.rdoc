@@ -1,5 +1,7 @@
 = Module: Puppet Ccache Module
 
+{<img src="https://secure.travis-ci.org/purplehazech/puppet-ccache.png?branch=master" alt="Build Status" />}[https://travis-ci.org/purplehazech/puppet-ccache]
+
 This module installs ccache on gentoo.
 
 This module is also used as a testing platform for integration stuff.
