@@ -1,3 +1,5 @@
+require 'puppet'
+require 'rspec'
 require 'rspec-puppet'
 
 RSpec.configure do |c|
