@@ -14,13 +14,13 @@
     "Gemfile.lock": "bb3a5cc3185d7c182388c8290ff94ebf",
     "LICENSE": "c0acfa7a8a03b718abee9135bc1a1c55",
     "Modulefile": "a5c0a4250c62b6b693bab2cd60235310",
-    "README.rdoc": "b7c3b4f564fbbafd95309c536e55dbd2",
+    "README.rdoc": "908f4e0dd41bc395a5ffa5fc9cf1b6ed",
     "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
-    "manifests/init.pp": "97d074601a98968ccaabcc81189b1e84",
+    "manifests/init.pp": "887323288aec71f2bd6ec08d35e53854",
     "manifests/params.pp": "81a2f3100fea3100761be347f48bb537",
     "spec/classes/ccache_spec.rb": "952bd6393929f150d97d24e01763c1f9",
     "spec/spec_helper.rb": "d7a62b403b7d46b784706f4e9823e1aa",
-    "test/site.pp": "bf36a288b695e5f3195312130d3b0625"
+    "tests/site.pp": "bf36a288b695e5f3195312130d3b0625"
   },
   "dependencies": [
     {

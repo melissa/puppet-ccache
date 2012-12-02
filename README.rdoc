@@ -9,7 +9,18 @@ This module is also used as a testing platform for integration stuff and as an e
 === Example Usage
 
   include ccache
-  
+
+you may also use extended syntax
+
+  class { 'class':
+    ensure => present
+  }
+
+or override defaults
+
+  $ccache::params::ensure = absent
+  include ccache
+
 === License
 
 2012, Lucas S. Bickel, Alle Rechte vorbehalten

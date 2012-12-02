@@ -2,10 +2,11 @@
 #
 # Install ccache on machine
 #
-# === Actions:
-# - Install ccache
+# === Parameters
+# [*ensure*]
+#   present or absent, defaults to present
 #
-# === Usage Example:
+# === Usage Example
 #
 #   include ccache
 #
